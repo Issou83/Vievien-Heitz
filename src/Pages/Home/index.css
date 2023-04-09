@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.banner {
+  background-image: url(../../assets/photos/Bonne-heure/Quintessence.jpg);
+  background-size: 1750px;
+  background-repeat: no-repeat;
+  background-position-y: 90%;
+  background-position-x: center;
+  object-fit: cover;
+  height: 200px;
+  width: 90%;
+  
+  margin: 60px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.home h1 {
+  font-family: "Lobster", sans-serif;
+
+  margin: 30px 0;
+}
+
+.exemplePhotos {
+  display: flex;
+ justify-content: center;
+  margin-bottom: 150px;
+}
+

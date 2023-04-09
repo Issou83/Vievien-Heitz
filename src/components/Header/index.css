@@ -1,0 +1,102 @@
+a {
+  color: white;
+  }
+
+.signature {
+  background-image: url(../../assets/img/Signature.svg);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#000000, #ffffff);
+  color: #fff;
+  padding: 20px;
+  z-index: 4;
+  /* margin: 6px; */
+
+}
+
+.menu-name {
+  font-family: "Alkatra", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  /* font-weight: bold; */
+  line-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-name {
+    font-size: 20px;
+  }
+}
+
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  
+}
+
+.menu-icon {
+  width: 30px;
+  height: 4px;
+  margin: 5px 25px;
+  background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    margin: 5px 5px;
+  }
+}
+
+
+.menu-list {
+  display: none;
+  position: absolute;
+  width: 50%;
+  top: 118px;
+  left: 0;
+  right: 0;
+  background: linear-gradient(0.25turn,rgb(0, 0, 0),#3333336b) ;
+  /* margin: 0 3px; */
+  font-size: 20px;
+  z-index: 0;
+}
+.menu-list li:hover {
+color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-list {
+  top: 80px;
+  width: 100%;
+  }
+}
+
+.menu-list.open {
+  display: block;
+  line-height: 150%;
+  padding: 30px;
+  animation-name: slide-down;
+  animation-duration: 0.5s;
+  z-index: 1;
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
