@@ -6,13 +6,15 @@ footer {
   flex-direction: column;
   padding: 20px;
   /* margin: 6px; */
-  background: linear-gradient(#ffffff,#000000);
+  background: linear-gradient(#000000,#ffffff);
 
   width: 100%;
 }
 .logoFooter {
-    height: 100px;
+ 
+    height: 60px;
 }
 footer p {
-    color: white;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
 }
