@@ -1,7 +1,7 @@
 .home {
   display: flex;
   flex-direction: column;
-  
+  min-height: 640px;
 }
 
 .banner {
@@ -29,6 +29,7 @@
 .exemplePhotos {
   display: flex;
  justify-content: center;
-  margin-bottom: 150px;
+  margin-bottom: 60px;
+  margin-top: 150px;
 }
 

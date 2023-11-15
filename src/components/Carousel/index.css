@@ -7,8 +7,8 @@
   overflow: hidden;
   object-fit: cover/center;
   text-align: center;
-  border: 3px solid rgb(168, 168, 168);
   border-radius: 10px;
+  padding: 10px;
 }
 @media screen and (max-width: 768px) {
   .carousel-container {
@@ -16,7 +16,9 @@
   }
 }
 
-
+.carousel-text {
+  color: white;
+}
 .carousel-container img {
   object-fit: cover/center;
   width: 100%;
@@ -73,6 +75,7 @@
 }
 
 .indicator-dot {
+  display: none;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -136,7 +139,8 @@
   border-radius: 50%;
   font-size: 12px;
   font-weight: 600;
-  top: 0;
+  left: -25px;
+  top: -25px;
   border: none;
  background-color: #ffffff72;
   cursor: pointer;
@@ -146,7 +150,8 @@
 .exit-fullscreen {
  
   position: absolute;
-  left: -45px;
+  left: -25px;
+  top: -25px;
   height: 60px;
   width: 60px;
   margin: 50px;

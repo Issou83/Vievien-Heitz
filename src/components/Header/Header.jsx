@@ -13,9 +13,7 @@ const Header = () => {
     <div className="header">
       <LogoAnim />
       <div className="menu-name">
-        <span>Vivien</span>
-        <br />
-        <span>Heitz</span>
+        <span>Vivien Heitz</span>
       </div>
       <nav>
         <div
@@ -39,22 +37,16 @@ const Header = () => {
             <a href="/">Accueil</a>
           </li>
           <li>
-            <a href="/">La boutique</a>
+            <a href="/boutique">La boutique</a>
           </li>
           <li>
-            <a href="/about">À propos</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-          <li>
-            <a href="/galerie">La galerie photos</a>
+            <a href="/galerie">Séries</a>
           </li>
           <li>
             <a href="/expos">Expositions / Publications</a>
           </li>
           <li>
-            <a href="/categories">Photos par catégorie</a>
+            <a href="/about">À propos</a>
           </li>
           <li>
             <a href="/contact">Contact</a>

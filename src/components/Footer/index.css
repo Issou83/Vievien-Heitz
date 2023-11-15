@@ -1,14 +1,16 @@
 footer {
-    bottom: 0%;
+  position: fixed;
+    bottom: 0;
     display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px;
   /* margin: 6px; */
-  background: linear-gradient(#000000,#ffffff);
-
+  background: white;
+    border-top: 2px solid black;
   width: 100%;
+  
 }
 .logoFooter {
  

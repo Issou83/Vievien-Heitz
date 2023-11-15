@@ -8,24 +8,27 @@ a {
 
 .header {
   position: fixed;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(#ffffff, #000000);
+  background: white;
   color: #fff;
   padding: 20px;
   z-index: 40;
   /* margin: 6px; */
+  border-bottom: 2px solid black;
 
 }
 
 .menu-name {
   font-family: "Alkatra", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   /* font-weight: bold; */
   line-height: 100%;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -45,7 +48,7 @@ a {
   width: 30px;
   height: 4px;
   margin: 5px 25px;
-  background-color: #fff;
+  background-color: #000000;
 }
 @media screen and (max-width: 768px) {
   .menu-icon {
@@ -67,18 +70,28 @@ a {
   display: none;
   position: absolute;
   width: 50%;
-  top: 120px;
-  left: 0;
+  top: 91px;
+  /* left: 0; */
   right: 0;
-  border-right: 3px solid white;
-  border-bottom: 3px solid white;
-  background: linear-gradient(0.25turn,rgb(0, 0, 0),#3333336b) ;
+  border-top: 1px solid rgb(0, 0, 0);
+  border-left: 1px solid rgb(0, 0, 0);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  background: white;
   /* margin: 0 3px; */
   font-size: 20px;
   z-index: -10;
+color: rgb(0, 0, 0);
 }
-.menu-list li:hover {
-color: red;
+.menu-list a {
+color: rgb(0, 0, 0);
+
+
+}
+.menu-list a:hover {
+color: rgb(0, 0, 0);
+border-bottom: 2px solid rgb(0, 0, 0);
+animation: slide 0.5 ease-out;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -99,10 +112,10 @@ color: red;
 
 @keyframes slide-down {
   0% {
-    transform: translateY(-100%);
+    transform: translateX(100%);
   }
   100% {
-    transform: translateY(0%);
+    transform: translateX(0%);
   }
 }
 

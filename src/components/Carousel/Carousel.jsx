@@ -54,8 +54,8 @@ const Carousel = ({ carouselData }) => {
         {carouselData.map((item, index) => (
           <div className="imgCarousel" key={index}>
             <div className="carousel-text">
-              <h2>{item.title}</h2>
-              <p>{item.description}</p>
+              {/* <h2>{item.title}</h2>
+              <p>{item.description}</p> */}
             </div>
             <img
               src={item.image}

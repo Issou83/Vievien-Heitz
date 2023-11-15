@@ -6,9 +6,9 @@ import carouselData from "../../components/Carousel/HomeData.json";
 const Home = () => {
   return (
     <div className="home">
-      <div className="banner">
+      {/* <div className="banner">
         <h1>Photographe et pationné</h1>
-      </div>
+      </div> */}
       <div className="exemplePhotos">
       <Carousel carouselData={carouselData} key={carouselData.title} />
       </div>
