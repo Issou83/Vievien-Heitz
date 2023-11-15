@@ -39,14 +39,14 @@ a {
 
 
 .menu-toggle {
-  display: none;
+
   cursor: pointer;
   
 }
 
 .menu-icon {
-  width: 30px;
-  height: 4px;
+  width: 40px;
+  height: 5px;
   margin: 5px 25px;
   background-color: #000000;
 }
@@ -122,11 +122,19 @@ animation: slide 0.5 ease-out;
 /* .menu-list.close {
 
 } */
-
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
   .menu-toggle {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80px;
+    height: 60px;
   }
 
+.dispatchElementHeader {
+  width: 33%;
+}

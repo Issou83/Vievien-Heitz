@@ -11,11 +11,14 @@ const Header = () => {
 
   return (
     <div className="header">
+      <div className="dispatchElementHeader">
       <LogoAnim />
-      <div className="menu-name">
+      </div>
+      
+      <div className="menu-name dispatchElementHeader">
         <span>Vivien Heitz</span>
       </div>
-      <nav>
+      <nav className="dispatchElementHeader">
         <div
           className={`menu-toggle ${isOpen ? "open" : "close"}`}
           onClick={toggleMenu}
